@@ -1,3 +1,13 @@
+/* Fonts */
+@font-face {
+  font-family: "Montserrat";
+  src: url(https://fonts.google.com/specimen/Montserrat);
+}
+@font-face {
+  font-family: "Fraunces";
+  src: url(https://fonts.google.com/specimen/Fraunces);
+}
+
 /* CSS Reset */
 *,
 *::before,
@@ -71,4 +81,8 @@ h6 {
   /* font weights */
   --fw-regular: 500;
   --fw-bold: 700;
+}
+
+body{
+    font-family: "Montserrat";
 }
