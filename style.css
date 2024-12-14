@@ -86,7 +86,7 @@ body {
   font-size: 0.875rem;
 
   display: grid;
-  min-height: 100vh;
+  min-height: 95vh;
   place-content: center;
 }
 
