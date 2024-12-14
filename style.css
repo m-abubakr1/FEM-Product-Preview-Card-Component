@@ -65,13 +65,83 @@ h6 {
 
   /* Neutral */
   --clr-dark-blue: hsl(212, 21%, 14%);
-  --clr-white: hsl(0, 0%, 100%);
   --clr-dark-greyish-blue: hsl(228, 12%, 48%);
+  --clr-white: hsl(0, 0%, 100%);
 
   /* Fonts */
   --ff-montserrat: "Montserrat", serif;
-  --ff-fraunces: "Fraunces", sans-serif;
+  --ff-fraunces: "Fraunces", serif;
 
   --fw-regular: 500;
   --fw-bold: 700;
+}
+
+body {
+  font-family: var(--ff-montserrat);
+  font-weight: var(--fw-regular);
+  color: var(--clr-dark-greyish-blue);
+  background-color: var(--clr-cream);
+  margin: 1rem;
+  font-size: 0.875rem;
+
+  display: grid;
+  min-height: 100vh;
+  place-content: center;
+}
+
+.container {
+  background-color: var(--clr-white);
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.content {
+  display: grid;
+  gap: 1rem;
+  padding: 1.5rem;
+}
+
+.category {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+.title {
+  color: var(--clr-dark-blue);
+  font-family: var(--ff-fraunces);
+  font-weight: var(--fw-bold);
+  font-size: 2rem;
+  line-height: 1;
+}
+
+.description {
+  line-height: 1.7;
+}
+
+.flex-group {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.sale-price {
+  color: var(--clr-dark-cyan);
+  font-family: var(--ff-fraunces);
+  font-size: 2rem;
+  font-weight: var(--fw-bold);
+}
+
+.btn {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+
+  text-decoration: none;
+  padding: 0.75em 1.5em;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  background-color: var(--clr-dark-cyan);
+  color: var(--clr-white);
 }
