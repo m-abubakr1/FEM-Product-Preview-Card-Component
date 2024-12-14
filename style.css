@@ -94,6 +94,9 @@ body {
   background-color: var(--clr-white);
   border-radius: 0.5rem;
   overflow: hidden;
+
+  display: grid;
+  max-width: 585px;
 }
 
 .content {
@@ -149,4 +152,10 @@ body {
 }
 .btn:hover {
   background-color: var(--clr-darker-cyan);
+}
+
+@media (min-width: 600px) {
+  .container {
+    grid-template-columns: 1fr 1fr;
+  }
 }

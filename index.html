@@ -28,9 +28,10 @@
     <main>
       <article class="container">
         <picture class="product-img"
-          ><img
-            src="images/image-product-mobile.jpg"
-            alt="imag-product-desktop"
+          ><source
+            media="(min-width: 600px)"
+            srcset="images/image-product-desktop.jpg" />
+          <img src="images/image-product-mobile.jpg" alt="imag-product-desktop"
         /></picture>
         <div class="content">
           <p class="category">Perfume</p>
