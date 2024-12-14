@@ -106,6 +106,7 @@ body {
   text-transform: uppercase;
   letter-spacing: 5px;
 }
+
 .title {
   color: var(--clr-dark-blue);
   font-family: var(--ff-fraunces);
@@ -145,4 +146,7 @@ body {
   cursor: pointer;
   background-color: var(--clr-dark-cyan);
   color: var(--clr-white);
+}
+.btn:hover {
+  background-color: var(--clr-darker-cyan);
 }
