@@ -61,6 +61,7 @@ h6 {
 :root {
   /* Primary */
   --clr-dark-cyan: hsl(158, 36%, 37%);
+  --clr-darker-cyan: hsl(158, 36%, 20%);
   --clr-cream: hsl(30, 38%, 92%);
 
   /* Neutral */
